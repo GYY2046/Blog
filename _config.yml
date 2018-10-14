@@ -1,10 +1,10 @@
 # Site settings
-title: GYY  Blog
+title:  顽石
 SEOTitle: GYY的博客 | GYY Blog
 header-img: img/home-bg.jpg
 email: 
 description: "GYY BLog"
-keyword: "GYY 博客"
+keyword: "顽石博客"
 url: "http://www.gyy2046.com"              # your host, for absolute URL
 baseurl: /                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+#disqus_username: hux
 
 # Netease settings
 netease_comment: false
@@ -71,8 +71,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
 
 
 
@@ -137,5 +137,3 @@ friends: [
         href: "http://xieminis.me/"
     }
 ]
-
-theme: jekyll-theme-cayman
