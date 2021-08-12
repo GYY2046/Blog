@@ -95,6 +95,7 @@ module.exports = {
     "markdown": {
         "lineNumbers": true
     },
+    // "plugins": ["@vuepress-reco/vuepress-plugin-pagation", { total: 4, perPage: 5, currentPage: 1 }],
     configureWebpack: {
         resolve: {
             alias: {
