@@ -10,6 +10,12 @@ sticky :
 - 1
 ---
 
+::: tip
+![首图](/xiangxiang.jpeg)
+:::
+
+<!-- more -->
+
 ## 顽石和香香 :love_letter:
 
 ### 2021-08-21
