@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest # 使用ubuntu系统镜像运行自动化脚本(温馨提示：和你所使用的操作系统及服务器系统无关，我本地用的windows10,云服务器用的centos)
-    strategy: (可选)
+    strategy: 
       matrix:
         node-version: [14.x] # 配置所需node版本
 
