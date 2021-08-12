@@ -30,9 +30,8 @@ jobs:
         uses: AEnterprise/rsync-deploy@v1.0 # 使用别人包装好的步骤镜像
         env:
           DEPLOY_KEY: ${{ secrets.SERVER }} # 引用配置，SSH私钥
-          ARGS: "-e -c -r --delete"
-          #RGS: -avz --delete --exclude='*.pyc' # rsync参数，排除.pyc文件
-          SERVER_PORT: '2046' # SSH端口
+          ARGS: -avz --delete --exclude='*.pyc' # rsync参数，排除.pyc文件
+          SERVER_PORT: ${{ secrets.SERVER_PORT }} # SSH端口
           FOLDER: ./public/* # 要推送的文件夹，路径相对于代码仓库的根目录
           SERVER_IP: ${{ secrets.SERVER_IP }} # 引用配置，服务器的host名（IP或者域名domain.com）
           USERNAME: ${{ secrets.SERVER_NAME }} # 引用配置，服务器登录名
