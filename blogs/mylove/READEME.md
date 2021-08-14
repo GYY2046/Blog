@@ -36,3 +36,11 @@ sticky :
 ![烤肉](/xiangxiang/kaoroudacan.jpg)
 顽石和香香吃的烤肉大餐，要扶墙了。
 :::
+
+###  2021-08-14
+::: tip
+![晚餐](/xiangxiang/77hj.jpg)
+晚餐继续吃花甲，大虾
+:::
+
+
