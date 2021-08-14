@@ -30,3 +30,9 @@ sticky :
 
 香香非常喜欢的纪念币， :kissing_smiling_eyes: :kissing_smiling_eyes: :kissing_smiling_eyes:
 :::
+
+###  2021-08-14
+:::tip
+![烤肉](/xiangxiang/kaoroudacan.jpg)
+顽石和香香吃的烤肉大餐，要扶墙了。
+:::
