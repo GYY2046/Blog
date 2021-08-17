@@ -35,12 +35,21 @@ module.exports = {
                 "icon": "reco-date"
             },
             {
-                "text": "文档",
+                "text": "PMP学习",
                 "icon": "reco-message",
                 "items": [{
-                    "text": "vuepress-reco",
-                    "link": "/docs/theme-reco/"
-                }]
+                        "text": "LYL",
+                        "link": "/PMP/lyl/"
+                    },
+                    {
+                        "text": "NBY",
+                        "link": "/PMP/nby/"
+                    },
+                    {
+                        "text": "GYY",
+                        "link": "/PMP/gyy/"
+                    }
+                ]
             },
             {
                 "text": "联系我",
@@ -53,12 +62,66 @@ module.exports = {
             }
         ],
         "sidebar": {
-            "/docs/theme-reco/": [
-                "",
-                "theme",
-                "plugin",
-                "api"
-            ]
+            "/PMP/gyy/": [{
+                title: 'GYY备考总结',
+                collapsable: true,
+                children: [
+                    '',
+                    'C01',
+                    'C02',
+                    'C03',
+                    'C04',
+                    'C05',
+                    'C06',
+                    'C07',
+                    'C08',
+                    'C09',
+                    'C10',
+                    'C11',
+                    'C12',
+                    'End',
+                ]
+            }, ],
+            "/PMP/lyl/": [{
+                title: 'LYL备考总结',
+                collapsable: true,
+                children: [
+                    '',
+                    'C01',
+                    'C02',
+                    'C03',
+                    'C04',
+                    'C05',
+                    'C06',
+                    'C07',
+                    'C08',
+                    'C09',
+                    'C10',
+                    'C11',
+                    'C12',
+                    'End',
+                ]
+            }],
+            "/PMP/nby/": [{
+                title: 'NBY备考总结',
+                collapsable: true,
+                children: [
+                    '',
+                    'C01',
+                    'C02',
+                    'C03',
+                    'C04',
+                    'C05',
+                    'C06',
+                    'C07',
+                    'C08',
+                    'C09',
+                    'C10',
+                    'C11',
+                    'C12',
+                    'End',
+                ]
+            }],
         },
         "type": "blog",
         "blogConfig": {
