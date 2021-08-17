@@ -1,6 +1,6 @@
 module.exports = {
     "title": "顽石",
-    "description": "顽石个人站点",
+    "description": "分享空间",
     "dest": "public",
     "head": [
         [
