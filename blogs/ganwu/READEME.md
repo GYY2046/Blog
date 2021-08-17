@@ -1,5 +1,5 @@
 ---
-title: 个人感悟
+title: 感悟
 date: 2021-08-12
 sidebar: 'auto'
 tags:
