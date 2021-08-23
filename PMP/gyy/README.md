@@ -1,13 +1,11 @@
 ---
-title: PMP备考
+title: PMP 总结
 date: 2021-08-17
 sidebar: 'auto'
 tags:
- - PMP 起步
+ - PMP 总结
 categories:
  - PMP
 ---
 
-## PM备考起步
-
-
+## 总结

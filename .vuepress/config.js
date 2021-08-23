@@ -1,3 +1,4 @@
+const { autoSideBar } = require("./mytool")
 module.exports = {
     "title": "顽石",
     "description": "分享空间",
@@ -20,6 +21,7 @@ module.exports = {
     ],
     "theme": "reco",
     "themeConfig": {
+        // "sidebarDepth": 2,
         "valineConfig": {
             "appId": 'DrENwwmzTi79DABNv4QBJfVX-gzGzoHsz', // your appId
             "appKey": 'esE7nddVj2pgcg3Ihb4T5F8v', // your appKey
@@ -65,62 +67,18 @@ module.exports = {
             "/PMP/gyy/": [{
                 title: 'GYY备考总结',
                 collapsable: true,
-                children: [
-                    '',
-                    'C01',
-                    'C02',
-                    'C03',
-                    'C04',
-                    'C05',
-                    'C06',
-                    'C07',
-                    'C08',
-                    'C09',
-                    'C10',
-                    'C11',
-                    'C12',
-                    'End',
-                ]
+                children: autoSideBar('./PMP/gyy/')
+                    //getChildren(path.resolve(__filename, '../../PMP/gyy/')),
             }, ],
             "/PMP/lyl/": [{
                 title: 'LYL备考总结',
                 collapsable: true,
-                children: [
-                    '',
-                    'C01',
-                    'C02',
-                    'C03',
-                    'C04',
-                    'C05',
-                    'C06',
-                    'C07',
-                    'C08',
-                    'C09',
-                    'C10',
-                    'C11',
-                    'C12',
-                    'End',
-                ]
+                children: autoSideBar('./PMP/lyl/')
             }],
             "/PMP/nby/": [{
                 title: 'NBY备考总结',
                 collapsable: true,
-                children: [
-                    '',
-                    'C01',
-                    'C02',
-                    'C03',
-                    'C04',
-                    'C05',
-                    'C06',
-                    'C07',
-                    'C08',
-                    'C09',
-                    'C10',
-                    'C11',
-                    'C12',
-                    'End',
-                ]
+                children: autoSideBar('./PMP/nby/')
             }],
         },
         "type": "blog",
@@ -156,7 +114,12 @@ module.exports = {
         "startYear": "2021"
     },
     "markdown": {
-        "lineNumbers": true
+        "lineNumbers": true,
+        // "extractHeaders": ['h2', 'h3', 'h4'],
+        "extendMarkdown": md => {
+            md.use(require('markdown-it-task-lists'))
+        }
+
     },
     // "plugins": ["@vuepress-reco/vuepress-plugin-pagation", { total: 4, perPage: 5, currentPage: 1 }],
     configureWebpack: {
