@@ -8,9 +8,9 @@ categories:
  - CentOS
 ---
 
-::tip
+:::tip
 安装Docker
-::
+:::
 
 ## Step:0 更新系统并重启
 
