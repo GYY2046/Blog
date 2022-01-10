@@ -5,8 +5,14 @@ sidebar: 'auto'
 tags:
  - RabbitMQ
 categories:
- - 开发
+ - RabbitMQ
 ---
+
+
+:::tip
+RabbitMQ 配置负载均衡
+:::
+
 # RabbitMQ 配置负载均衡
 
 ## 概述

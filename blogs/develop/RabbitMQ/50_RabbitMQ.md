@@ -5,8 +5,12 @@ sidebar: 'auto'
 tags:
  - RabbitMQ
 categories:
- - 开发
+ - RabbitMQ
 ---
+
+:::tip
+RabbitMQ  消费者确认和发布者确认模式
+:::
 # RabbitMQ  消费者确认和发布者确认模式
 
 ##  消费者确认和发布者确认模式

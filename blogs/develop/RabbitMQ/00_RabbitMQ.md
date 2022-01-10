@@ -1,3 +1,16 @@
+---
+title: RabbitMQ 安装
+date: 2022-01-10
+sidebar: 'auto'
+tags:
+ - RabbitMQ
+categories:
+ - RabbitMQ
+---
+
+:::tip
+RabbitMQ 安装
+:::
 # RabbitMQ 安装
 
 ## 概述

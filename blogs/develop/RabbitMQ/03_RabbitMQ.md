@@ -5,8 +5,12 @@ sidebar: 'auto'
 tags:
  - RabbitMQ
 categories:
- - 开发
+ - RabbitMQ
 ---
+
+:::tip
+RabbitMQ 整合高可用
+:::
 # RabbitMQ 整合高可用
 
 ## 概述

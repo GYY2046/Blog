@@ -5,8 +5,13 @@ sidebar: 'auto'
 tags:
  - RabbitMQ
 categories:
- - 开发
+ - RabbitMQ
 ---
+
+:::tip
+RabbitMQ 集群
+:::
+
 # RabbitMQ 集群
 
 ## 概述
@@ -18,7 +23,7 @@ categories:
 
 在本文中将要搭建的RabbitMQ集群架构如下：
 
-![rabbitmq-1](./架构.png)
+![rabbitmq-1](./01_01.png)
 
 ## RabbitMQ集群节点说明：
 
